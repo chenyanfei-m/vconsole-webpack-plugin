@@ -3,7 +3,7 @@
     "jsdom": "^15.2.1"
   },
   "name": "cy-vconsole-webpack-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "chongya vconsole webpack plugin",
   "main": "index.js",
   "devDependencies": {},
