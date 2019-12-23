@@ -5,10 +5,12 @@ const safeTypeReg = /\.html$/
 
 const injectVConsole = (htmlText) => {
     const { document } = new JSDOM(htmlText).window
-    const vConsoleScriptNode = document.createElement('script')
-    vConsoleScriptNode.src = 'http://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.2.0'
-    vConsoleScriptNode.innerHTML = 'window.vConsole = new window.VConsole();'
-    document.querySelector('body').appendChild(vConsoleScriptNode)
+    const vScript1 = document.createElement('script')
+    vScript1.src = 'http://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.2.0'
+    const vScript2 = document.createElement('script')
+    vScript2.innerHTML = 'window.vConsole = new window.VConsole();'
+    document.querySelector('body').appendChild(vScript1)
+    document.querySelector('body').appendChild(vScript2)
     return document.documentElement.innerHTML
 }
 
