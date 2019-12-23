@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "jsdom": "^15.2.1"
+  },
+  "name": "cy-vconsole-webpack-plugin",
+  "version": "0.0.2",
+  "description": "chongya vconsole webpack plugin",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plubin",
+    "vconsole",
+    "chongya"
+  ],
+  "author": "chenyanfei",
+  "license": "MIT"
+}
