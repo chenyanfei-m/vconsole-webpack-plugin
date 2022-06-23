@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "jsdom": "^15.2.1"
+    "jsdom": "^16.5.0"
   },
   "name": "cy-vconsole-webpack-plugin",
   "version": "0.0.5",
